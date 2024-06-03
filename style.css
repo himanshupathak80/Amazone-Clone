@@ -1,3 +1,43 @@
+/* Base styles remain unchanged */
+
+/* Media query for tablets and smaller desktops */
+@media (max-width: 1024px) {
+    .shop-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .box {
+        width: 45%;
+    }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .nav-logo {
+        margin-left: 10px;
+    }
+    
+    .nav-search {
+        width: 100%;
+    }
+    
+    .search-input {
+        font-size: 0.9rem;
+    }
+    
+    .box {
+        width: 100%;
+    }
+}
+
+/* Your existing CSS styles below */
+
 * {
     margin: 0;
     font-family: Arial;
@@ -181,44 +221,6 @@ span {
     padding: 20px 0px 15px;
     margin-top: 15px;
 }
-/* Base styles remain unchanged */
-
-/* Media query for tablets and smaller desktops */
-@media (max-width: 1024px) {
-    .shop-section {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .box {
-        width: 45%;
-    }
-}
-
-/* Media query for mobile devices */
-@media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    
-    .nav-logo {
-        margin-left: 10px;
-    }
-    
-    .nav-search {
-        width: 100%;
-    }
-    
-    .search-input {
-        font-size: 0.9rem;
-    }
-    
-    .box {
-        width: 100%;
-    }
-}
-
 
 .box-img {
     height: 300px;
@@ -226,7 +228,6 @@ span {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
-
 
 .box-content {
     margin-left: 1rem;
