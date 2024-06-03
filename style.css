@@ -1,6 +1,4 @@
-/* Base styles remain unchanged */
 
-/* Media query for tablets and smaller desktops */
 @media (max-width: 1024px) {
     .shop-section {
         flex-direction: column;
@@ -35,8 +33,6 @@
         width: 100%;
     }
 }
-
-/* Your existing CSS styles below */
 
 * {
     margin: 0;
@@ -74,7 +70,7 @@
     border: 1.5px solid white;
 }
 
-/* Box2 */
+
 
 .add-first {
     color: #cccccc;
@@ -92,7 +88,7 @@
     align-items: center;
 }
 
-/* box3 */
+
 
 .nav-search {
     display: flex;
@@ -142,7 +138,7 @@ span {
     font-weight: 700;
 }
 
-/* box5 */
+
 .nav-cart i {
     font-size: 30px;
 }
@@ -152,7 +148,7 @@ span {
     font-weight: 700;
 }
 
-/* Panel */
+
 
 .panel {
     height: 40px;
@@ -178,7 +174,7 @@ span {
     font-weight: 700;
 }
 
-/* hero Section */
+
 
 .hero-section {
     background-image: url("image/hero_image.jpg");
@@ -205,7 +201,7 @@ span {
     color: #007185;
 }
 
-/* shop-section */
+
 
 .shop-section {
     display: flex;
